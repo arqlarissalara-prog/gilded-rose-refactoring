@@ -1,0 +1,8 @@
+QUALIDADE_MINIMA = 0
+QUALIDADE_MAXIMA = 50
+QUALIDADE_SULFURAS = 80
+
+QUEIJO_ENVELHECIDO = "Aged Brie"
+SULFURAS = "Sulfuras, Hand of Ragnaros"
+INGRESSO_SHOW = "Backstage passes to a TAFKAL80ETC concert"
+CONJURADO = "Conjured Mana Cake"
