@@ -1,0 +1,26 @@
+﻿# Bytecode Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Cobertura de testes (Módulo 4)
+.coverage
+htmlcov/
+.pytest_cache/
+
+# PyCharm
+.idea/
+
+# Distribuição / build
+*.egg-info/
+dist/
+build/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
