@@ -50,8 +50,8 @@ A refatoração transformou o código legado adotando padrões modernos de desig
 
 O projeto conta com uma suíte de testes com `pytest` cobrindo casos nominais, regras especiais, orquestração e valores de borda (limites 0 e 50, dia exato do vencimento e comportamento pós-vencimento).
 
-* **Testes unitários e de integração:** 22 testes passando (100% verde).
-* **Cobertura de código:** **98% de cobertura** medida com `pytest-cov`, atingindo 100% de cobertura na classe principal `GildedRose` e em todos os atualizadores de regras de negócio.
+* **Testes unitários e de integração:** 28 testes passando (100% verde).
+* **Cobertura de código:** **99% de cobertura** medida com `pytest-cov`, atingindo 100% de cobertura na classe principal `GildedRose` e em todos os atualizadores de regras de negócio.
 
 ---
 
