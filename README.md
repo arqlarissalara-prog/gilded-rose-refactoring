@@ -48,10 +48,11 @@ A refatoração transformou o código legado adotando padrões modernos de desig
 
 ## 🧪 Testes Automatizados e Qualidade
 
-O projeto conta com uma suíte de testes com `pytest` cobrindo casos nominais, regras especiais, orquestração e valores de borda (limites 0 e 50, dia exato do vencimento e comportamento pós-vencimento).
+O projeto conta com uma suíte abrangente de testes automatizados utilizando `pytest`, cobrindo regras nominais, casos de borda (limites 0 e 50), comportamento pós-vencimento, orquestração e representação de itens.
 
-* **Testes unitários e de integração:** 28 testes passando (100% verde).
-* **Cobertura de código:** **99% de cobertura** medida com `pytest-cov`, atingindo 100% de cobertura na classe principal `GildedRose` e em todos os atualizadores de regras de negócio.
+* **Suíte de Testes:** 28 testes unitários e de integração passando (100% verde).
+* **Cobertura de Código:** **99% de cobertura total** medida via `pytest-cov`, atingindo 100% na orquestração da classe principal `GildedRose` e em todos os atualizadores de regras de negócio.
+* **Integração Contínua (CI):** Workflow automatizado via GitHub Actions executando a suíte de testes e validações a cada *push* e *Pull Request* na branch `main`.
 
 ---
 
