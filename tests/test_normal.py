@@ -1,5 +1,4 @@
-from gilded_rose import GildedRose, Item
-
+from legado_gilded_rose import GildedRose, Item
 
 def test_normal_item_decreases_sell_in_and_quality_by_one():
     item = Item(name="+5 Dexterity Vest", sell_in=10, quality=20)

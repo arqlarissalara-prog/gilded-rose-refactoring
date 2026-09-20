@@ -1,5 +1,4 @@
-from gilded_rose import GildedRose, Item
-
+from legado_gilded_rose import GildedRose, Item
 
 def test_aged_brie_increases_quality_by_one_before_sell_in():
     item = Item(name="Aged Brie", sell_in=2, quality=0)

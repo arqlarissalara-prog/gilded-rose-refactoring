@@ -1,5 +1,4 @@
-from gilded_rose import GildedRose, Item
-
+from legado_gilded_rose import GildedRose, Item
 
 def test_sulfuras_never_changes_sell_in_or_quality():
     item = Item(name="Sulfuras, Hand of Ragnaros", sell_in=0, quality=80)
